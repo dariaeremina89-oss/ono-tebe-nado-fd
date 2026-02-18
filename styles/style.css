@@ -116,7 +116,7 @@
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -190,7 +190,6 @@
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  padding-bottom: 72px;
 }
 
 .card__title {
@@ -285,6 +284,10 @@
   text-transform: lowercase;
 }
 
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
 .footer__social-list {
   display: flex;
   flex-direction: row;
@@ -292,7 +295,7 @@
   gap: 48px;
 }
 
-.footer__social-list-item {
+.footer__social-icon {
   width: 48px;
   height: 48px;
 }
